@@ -1,0 +1,27 @@
+Type of ability:
+	1. projectile
+	2. separate entity
+	3. buffs
+
+Type of hitbox:
+	1. rounded (circle)
+	2. triangle (possible existense)
+	3. rectangle 
+
+Settings of ability (hitbox):
+	1. radius (size)
+
+Effect:
+	1. Variable of enemy
+	2. Times
+	3. Interval
+
+
+4-7
++4
++2
+0
+-2
+-4
+-6
+-8

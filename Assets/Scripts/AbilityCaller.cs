@@ -12,6 +12,6 @@ public class AbilityCaller : AbilityExecuter
 
 public enum AbilityType    
 {
-    Player,
-    Entity
+    Player=0,
+    Entity=1
 }

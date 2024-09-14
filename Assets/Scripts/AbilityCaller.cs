@@ -2,16 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AbilityCaller : ScriptableObject
+public class AbilityCaller : AbilityExecuter
 {
     public AbilityType type;
-    public Ability ability;
-    public int times;
-    public int interval;
+    public AbilityExecuter executer;
     public int cooldown;
     public int currentCooldown;
-
-
 }
 
 public enum AbilityType    

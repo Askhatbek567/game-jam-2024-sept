@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AbilityCaller : AbilityExecuter
+public class AbilityCaller : ScriptableObject
 {
     public AbilityType type;
     public AbilityExecuter executer;

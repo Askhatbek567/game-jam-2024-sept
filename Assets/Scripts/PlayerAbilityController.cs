@@ -73,6 +73,8 @@ public class PlayerAbilityController : MonoBehaviour
 				Message.text = "There is no such ability";
 			}
 		}
+		if(abil == null)
+			return;
 		if(abil.type == AbilityType.Player)
 		{
 			player.executers.Append(abil.executer);

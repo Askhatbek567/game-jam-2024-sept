@@ -8,12 +8,12 @@ public class Effect : ScriptableObject
     public float valueInitial;
     public Variable variableFinal;
     public float valueFinal;
-    public float duration;
+    public int duration;
     public Variable variableCurrent;
     public float valueCurrent;
     public int times;
     public float valueShiftCurrent;
-
+    public int currentTimeEffect;
 }
 
 public enum Variable

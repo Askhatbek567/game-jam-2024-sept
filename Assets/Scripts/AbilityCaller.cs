@@ -2,17 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AbilityCaller : MonoBehaviour
+public class AbilityCaller : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public AbilityType type;
+    public Ability ability;
+    public int times;
+    public int interval;
+    public int cooldown;
+    public int currentCooldown;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+}
+
+public enum AbilityType    
+{
+    Player,
+    Entity
 }

@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class Ability : ScriptableObject
 {
-    public AbilityType type;
+    public AbilityHitboxType type;
     public float radius;
     public float width;
     public Effect effect;
+
 }
 
-public enum AbilityType
+public enum AbilityHitboxType
 {
+    Self,
     Circle,
     Square
 }

@@ -5,17 +5,13 @@ using UnityEngine;
 public class AbilityCaller : ScriptableObject
 {
     public AbilityType type;
-    public Ability ability;
-    public int times;
-    public int interval;
+    public AbilityExecuter executer;
     public int cooldown;
     public int currentCooldown;
-
-
 }
 
 public enum AbilityType    
 {
-    Player,
-    Entity
+    Player=0,
+    Entity=1
 }
